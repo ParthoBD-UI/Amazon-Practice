@@ -47,3 +47,107 @@ Amazon Practice HTML &amp; CSS
 
 </body>
 </html>
+
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 40px;
+    width: 105px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    background-size: cover;
+    display: flex;
+    padding-top: 10px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+.add-first {
+    color: #CCCCCC;
+    font-size: 0.70rem;
+    margin-left: 18px;
+}
+.add-second {
+    color: #CCCCCC;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+span {
+    font-size: 0.7rem;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i {
+font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
